@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+}
+
+#he {
+    background-color: var(--bg-main);
+    background-color: rgb(173, 113, 38);
+}
+
+.h-main {
+    padding: 0rem 9rem 0rem 9rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #fbafaf
+}
+
+#h-img {
+    /* background-color:;
+    height: 500px;
+    justify-content: flex-end;
+    padding-top: 13rem; */
+
+}
+
+.h-right {
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#h-text {
+    font-size: 5rem;
+}
+
+.btn {
+    background-color: #ef6363;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5rem 5rem;
+    font-size: 1rem;
+}
+
+#h-pra {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-block: 20px;
+
+}
+
+.f-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.f-header {
+    text-align: center;
+    width: 42%;
+    padding-top: 1rem;
+}
+
+.flowers {
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.flowr {
+    border-radius: 10rem 10rem 0 0;
+
+    display: flex;
+    padding: 3rem 2rem 0;
+}
+
+.f {
+    flex-direction: column;
+    display: flex;
+    gap: 3rem;
+
+}
+
+#f1 {
+    background-color: #fbafaf;
+}
+
+#f2 {
+    background-color: rgb(176, 183, 188);
+}
+
+#f3 {
+    background-color: rgb(72, 219, 133);
+}
+
+#job {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7rem 0;
+    background-color: #e9afaf;
+
+}
+
+.ducument {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 50%;
+    text-align: center;
+
+}
+
+
+#sub {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub2 {
+    background-image: url('/Flower\ Asset/Rectangle 9.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sub2>h1 {
+    font-size: 2rem;
+}
+
+.sub2>p {
+    font-size: 1.3rem;
+}
+
+#ssection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    margin-top: 3rem;
+}
+
+.d-servic {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f1d4d4ae;
+    width: 75%;
+    height: 15%;
+    align-items: center;
+    padding: 2rem;
+}
+
+.s-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rpx;
+    flex-direction: column;
+    font-size: small;
+}
+
+.d-servic {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.inpd {
+
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp {
+    width: 55%;
+    padding: 1rem 1rem;
+}
+
+.inp::placeholder {
+    font-size: 1.3rem;
+}
+
+
+footer {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: black;
+    color: white;
+}
+
+footer>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer>div>p {
+    width: 65%;
+    text-align: center;
+}
+
+.cl {
+    color: #ef6363;
+}
+
+.ins {
+    min-height: 60vh;
+
+    padding: 3rem 0;
+}
+
+.ins-f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.7rem;
+}
+
+.hov:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: .6s;
+}
